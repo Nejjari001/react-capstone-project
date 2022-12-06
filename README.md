@@ -29,7 +29,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 CRYPTOX<a name="about-project"></a>
+# 📖 CRYPTO <a name="about-project"></a>
 
 **CRYPTOS** is a React-Redux application built on top of the CoinApp API.
 
