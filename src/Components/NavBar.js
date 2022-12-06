@@ -1,6 +1,7 @@
+/* eslint-disable no-console */
 import React from 'react';
 import 'font-awesome/css/font-awesome.min.css';
-import logo from '../images/logo_crypto.png';
+import logo from '../images/bitcoin.png';
 
 const NavBar = () => {
   const handleSearch = (e) => {

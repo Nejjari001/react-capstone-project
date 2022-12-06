@@ -194,13 +194,13 @@ body {
   flex: 1;
 }
 
-.crypto-details>button:nth-child(4n + 0),
-.crypto-details>button:nth-child(4n + 1) {
+.crypto-details > button:nth-child(4n + 0),
+.crypto-details > button:nth-child(4n + 1) {
   background: #4167ae;
 }
 
-.crypto-details>button:nth-child(4n + 2),
-.crypto-details>button:nth-child(4n + 3) {
+.crypto-details > button:nth-child(4n + 2),
+.crypto-details > button:nth-child(4n + 3) {
   background: #4d76c2;
 }
 
@@ -216,7 +216,7 @@ body {
   cursor: pointer;
 }
 
-tr>td>p {
+tr > td > p {
   width: 100%;
   margin: 0 auto;
   padding: 10px 20px 10px 20px;
@@ -228,7 +228,7 @@ tr>td>p {
   font-size: 15px;
 }
 
-tr>td>p>a {
+tr > td > p > a {
   text-decoration: none;
   color: #fff;
 }
@@ -243,7 +243,7 @@ td {
   padding: 20px;
 }
 
-tr>td:nth-child(1) {
+tr > td:nth-child(1) {
   font-weight: bold;
   font-size: 15px;
 }
@@ -262,7 +262,7 @@ tr:nth-child(even) {
   gap: 10px;
 }
 
-.crypto-name>p {
+.crypto-name > p {
   text-align: right;
 }
 
@@ -319,7 +319,7 @@ table {
   margin: auto;
 }
 
-.search>input {
+.search > input {
   padding: 10px;
   border-radius: 5px;
   border: none;
@@ -349,7 +349,6 @@ table {
 }
 
 @media screen and (min-width: 768px) {
-
   .header,
   .header-detail {
     width: 100%;
@@ -371,7 +370,7 @@ table {
     flex-grow: 1;
   }
 
-  .tr>td>p:hover {
+  .tr > td > p:hover {
     background: #004216;
   }
 }
