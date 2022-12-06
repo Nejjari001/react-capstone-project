@@ -86,6 +86,7 @@ body {
   border: 1px solid var(--color1);
   border-radius: 5px;
   margin: auto;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.5);
 }
 
 .header-detail {
@@ -96,13 +97,14 @@ body {
 }
 
 .logo-header-detail {
-  width: 60%;
+  width: 70%;
   justify-content: space-between;
 }
 
 .fa {
   color: #fff;
   cursor: pointer;
+  font-size: 50px;
 }
 
 .right-side {
@@ -119,8 +121,7 @@ body {
 }
 
 .logo {
-  width: 70%;
-  mix-blend-mode: color-burn;
+  width: 50%;
   border-radius: 10px;
 }
 
@@ -194,13 +195,13 @@ body {
   flex: 1;
 }
 
-.crypto-details > button:nth-child(4n + 0),
-.crypto-details > button:nth-child(4n + 1) {
+.crypto-details>button:nth-child(4n + 0),
+.crypto-details>button:nth-child(4n + 1) {
   background: #4167ae;
 }
 
-.crypto-details > button:nth-child(4n + 2),
-.crypto-details > button:nth-child(4n + 3) {
+.crypto-details>button:nth-child(4n + 2),
+.crypto-details>button:nth-child(4n + 3) {
   background: #4d76c2;
 }
 
@@ -216,7 +217,7 @@ body {
   cursor: pointer;
 }
 
-tr > td > p {
+tr>td>p {
   width: 100%;
   margin: 0 auto;
   padding: 10px 20px 10px 20px;
@@ -228,7 +229,7 @@ tr > td > p {
   font-size: 15px;
 }
 
-tr > td > p > a {
+tr>td>p>a {
   text-decoration: none;
   color: #fff;
 }
@@ -243,7 +244,7 @@ td {
   padding: 20px;
 }
 
-tr > td:nth-child(1) {
+tr>td:nth-child(1) {
   font-weight: bold;
   font-size: 15px;
 }
@@ -262,7 +263,7 @@ tr:nth-child(even) {
   gap: 10px;
 }
 
-.crypto-name > p {
+.crypto-name>p {
   text-align: right;
 }
 
@@ -316,16 +317,24 @@ table {
 
 .search {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-bottom: 1px solid rgb(0, 255, 0, 0.5);
+  border-top: 1px solid rgb(0, 255, 0, 0.5);
+}
+
+.search>input {
+  padding: 10px;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  width: 60%;
   margin: auto;
 }
 
-.search > input {
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
-  outline: none;
-  width: 50%;
-  margin: auto;
+.search>input::placeholder {
+  color: var(--color2);
 }
 
 .search-msg {
@@ -338,17 +347,18 @@ table {
 }
 
 .failure {
-  background: rgb(252, 197, 197);
-  color: red;
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .success {
   background: #00be3f;
   color: #fff;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 768px) {
+
   .header,
   .header-detail {
     width: 100%;
@@ -370,7 +380,7 @@ table {
     flex-grow: 1;
   }
 
-  .tr > td > p:hover {
+  .tr>td>p:hover {
     background: #004216;
   }
 }
