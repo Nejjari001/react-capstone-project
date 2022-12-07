@@ -29,19 +29,6 @@ exports[`renders the navbar component 1`] = `
     <div
       class="right-side flex"
     >
-      <input
-        class="search-field"
-        placeholder="Search Cryptos"
-        type="search"
-      />
-      <span
-        class="audio"
-      >
-        <i
-          aria-hidden="true"
-          class="fa fa-microphone"
-        />
-      </span>
       <span
         class="settings"
       >
