@@ -18,7 +18,7 @@ function App() {
         )}
       />
       <Route
-        path="/crypto-details"
+        path="crypto-details/:id"
         element={(
           <>
             <DetailsHeader />
