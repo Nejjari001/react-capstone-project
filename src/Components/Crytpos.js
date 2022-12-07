@@ -25,7 +25,7 @@ const Crytpos = () => {
 
   const handleClick = (cryptoObj) => {
     navigate(
-      '/crypto-details',
+      `/crypto-details/${cryptoObj.id}`,
       {
         state: {
           cryptos: cryptoObj,
